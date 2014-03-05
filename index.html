@@ -10,10 +10,15 @@
     <title>My Simple Web App</title>
 
     <!-- JQuery and D3.js -->
+    <!-- these files are from the internet -->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
     <!-- Bootstrap core CSS -->
+    <!-- the way the webpage looks should be separable from the structure or content so page can be delivered one way and you can always restyle it -->
+    <!-- word press themes are CSS overwrites on blog structure -->
+    <!-- bootstrap is a bunch of css and js files that make it easy to make websites that look nice (twitter) -->
+    <!-- cascading style sheets: ones that come after overwrite ones that came before -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -30,13 +35,20 @@
         <div class="page-header">
           <h1>Hello</h1>
         </div>
-        <p>
-          Welcome to your first basic webpage.
-        </p>
+        <div class="instructions">
+          <p>
+            Welcome to your first basic webpage.
+          </p>
+          <div class="buttonbar">
+          </div>
+        </div>
+        <!-- svg id="stage" width="300" height="300"></svg --> 
+        <!-- d3.select("#stage") -->
         <!-- page content goes here -->
       </div>
     </div>
 
+  <!-- custom code at the bottom means it will run later in teh process after everything else is loaded -->
   </body>
   <script src="js/custom.js" charset="utf-8"></script>
 
